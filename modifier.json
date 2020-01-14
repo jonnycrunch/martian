@@ -1,0 +1,12 @@
+{
+        "url.Filter": {
+          "scope": ["request", "response"],
+          "host" : "example.com",
+          "modifier" : {
+            "status.Verifier": {
+              "scope" : ["response"],
+              "statusCode": 200
+            }
+          }
+        }
+      }
